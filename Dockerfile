@@ -1,9 +1,9 @@
-FROM jamesdbloom/docker-java8-maven
+FROM  kaiwinter/docker-java8-maven
 LABEL maintainer=“33ASO”
 
 # Install maven
-RUN apt-get update
-RUN apt-get install -y maven
+#RUN apt-get update
+#RUN apt-get install -y maven
 
 WORKDIR /helloword
 
